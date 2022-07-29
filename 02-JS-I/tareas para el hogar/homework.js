@@ -108,17 +108,20 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  return (num*num); 
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
+  return (num*num*num)
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+return (num*expoenent); 
   
 }
 
@@ -146,6 +149,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   
+  if (num>0){
+    return "Es positivo"
+  }else{
+    return "Es negativo"
+  };
 }
 
 function agregarSimboloExclamacion(str) {
@@ -185,6 +193,8 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  
+  return ( base * altura )/2 ;
 
 }
 
@@ -193,6 +203,9 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
+  return deEuroAdolar (euro){
+    (euro*1,20)
+  }
   
 }
 
